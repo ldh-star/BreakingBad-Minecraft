@@ -8,7 +8,7 @@
 
 ## 开始
 - 前置mod：Forge, Kotlin For Forge
-- Download files  [下载jar文件](/releases/)
+- Download files  [下载jar文件](https://github.com/ldh-star/BreakingBad-Minecraft/releases)
 - CurseForge [CurseForge主页](https://www.curseforge.com/minecraft/mc-mods/breaking_bad)
 
 ## 特性

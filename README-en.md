@@ -8,7 +8,7 @@ This mod brings the theme of the Breaking Bad TV show into the Minecraft world. 
 
 ## Start
 - Require mod: Forge, Kotlin For Forge
-- Download files  [Download .jar](/releases/)
+- Download files  [Download .jar](https://github.com/ldh-star/BreakingBad-Minecraft/releases)
 - CurseForge [CurseForge Home](https://www.curseforge.com/minecraft/mc-mods/breaking_bad)
 
 #### Gus Fring
