@@ -6,6 +6,10 @@ This mod brings the theme of the Breaking Bad TV show into the Minecraft world. 
 
 ### [中文](README.md) | English
 
+## Start
+- Require mod: Forge, Kotlin For Forge
+- Download files  [Download .jar](/releases/)
+- CurseForge [CurseForge Home](https://www.curseforge.com/minecraft/mc-mods/breaking_bad)
 
 #### Gus Fring
 - He can trade with the player, wholesale large amounts of drugs for the player.

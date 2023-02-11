@@ -6,8 +6,10 @@
 
 ### 中文 | [English](README-en.md)
 
-## 游玩
-- Download files  [点击此处下载](release/breakingbad-0.0.1-1.19.2-forge.jar)
+## 开始
+- 前置mod：Forge, Kotlin For Forge
+- Download files  [下载jar文件](/releases/)
+- CurseForge [CurseForge主页](https://www.curseforge.com/minecraft/mc-mods/breaking_bad)
 
 ## 特性
 
