@@ -1,8 +1,6 @@
 package org.liangguo.breakingbad
 
-import net.minecraft.world.entity.SpawnPlacements
 import net.minecraftforge.common.MinecraftForge
-import net.minecraftforge.event.entity.SpawnPlacementRegisterEvent
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext
