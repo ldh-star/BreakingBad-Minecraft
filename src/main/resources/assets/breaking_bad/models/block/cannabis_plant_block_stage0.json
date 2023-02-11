@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "breaking_bad:block/cannabis_plant_block_stage3"
+  }
+}

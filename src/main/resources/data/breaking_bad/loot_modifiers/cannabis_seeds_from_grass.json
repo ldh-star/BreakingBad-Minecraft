@@ -1,0 +1,10 @@
+{
+  "type": "breaking_bad:add_item",
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:grass"
+    }
+  ],
+  "item": "breaking_bad:cannabis_seeds"
+}

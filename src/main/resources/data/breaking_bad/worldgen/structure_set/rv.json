@@ -1,0 +1,16 @@
+{
+   "structures": [
+    {
+      "structure": "breaking_bad:rv",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 5170133070,
+
+    "spacing": 20,
+"separation": 6,
+
+    "type": "minecraft:random_spread"
+  }
+}

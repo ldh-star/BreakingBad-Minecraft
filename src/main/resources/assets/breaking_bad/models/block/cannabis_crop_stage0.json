@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "render_type": "cutout",
+  "textures": {
+    "crop": "breaking_bad:block/cannabis_crop_stage0"
+  }
+}

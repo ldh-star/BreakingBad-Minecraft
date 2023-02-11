@@ -1,0 +1,18 @@
+{
+  "breaking_bad_theme": {
+    "sounds": [
+      {
+        "name": "breaking_bad:breaking_bad_theme",
+        "stream": true
+      }
+    ]
+  },
+  "tuco": {
+    "sounds": [
+      {
+        "name": "breaking_bad:tuco",
+        "stream": true
+      }
+    ]
+  }
+}

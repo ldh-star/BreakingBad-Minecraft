@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "minecraft:desert",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:badlands",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna"
+  ],
+  "spawners": {
+    "type": "breaking_bad:twin_brother_red",
+    "weight": 5,
+    "minCount": 0,
+    "maxCount": 1
+  }
+}

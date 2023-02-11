@@ -1,0 +1,42 @@
+{
+  "itemGroup.breaking_bad_mod_tab": "Breaking Bad",
+
+  "item.breaking_bad.cannabis_seeds": "Cannabis Seeds",
+  "item.breaking_bad.cannabis_leaf": "Cannabis Leaf",
+  "item.breaking_bad.methamphetamine": "Methamphetamine",
+  "item.breaking_bad.methamphetamine_blue": "Blue Methamphetamine",
+  "item.breaking_bad.mercuric_fulminate_item": "Mercuric Fulminate",
+
+  "item.breaking_bad.gus_fring_spawn_egg": "Gus Fring Spawn Egg",
+  "item.breaking_bad.undead_gus_fring_spawn_egg": "Undead Gus Fring Spawn Egg",
+  "item.breaking_bad.twin_brother_blue_spawn_egg": "Twin Leonel Spawn Egg",
+  "item.breaking_bad.twin_brother_red_spawn_egg": "Twin Marco Spawn Egg",
+  "item.breaking_bad.undead_zombie_spawn_egg": "Undead Zombie Spawn Egg",
+  "item.breaking_bad.chicken_nugget": "Chicken Nugget",
+  "item.breaking_bad.breaking_bad_theme_music_disc": "Breaking Bad Theme Disc",
+  "item.breaking_bad.breaking_bad_theme_music_disc.desc": "Breaking Bad Theme Song",
+
+
+  "block.breaking_bad.cannabis_plant_block": "Cannabis Plant Block",
+
+  "effect.breaking_bad.addiction": "Drug Addiction Attack",
+  "effect.breaking_bad.addicition_timer": "Addiction Count Down",
+
+  "entity.minecraft.villager.breaking_bad.drug_dealer": "Drug Dealer",
+  "entity.breaking_bad.gus_fring": "Gus Fring",
+  "entity.breaking_bad.undead_gus_fring": "Undead Gus Fring",
+  "entity.breaking_bad.twin_brother_blue": "Twin Leonel",
+  "entity.breaking_bad.twin_brother_red": "Twin Marco",
+  "entity.breaking_bad.undead_zombie": "Undead Zombie",
+
+
+
+  "breaking_bad.string.gus_fring_soubriquet": "Gustavo Fring",
+  "breaking_bad.string.gus_fring_introduction": "Gustavo \"Gus\" Fring is a fictional character portrayed by Giancarlo Esposito in the Breaking Bad franchise, serving as the main antagonist of the crime drama series Breaking Bad and a supporting character in its prequel Better Call Saul. He is a Chilean-American businessman and major narcotics distributor in the Southwestern United States who uses several legitimate businesses, including a chain of successful fried chicken restaurants called Los Pollos Hermanos (The Chicken Brothers) and an industrial laundry facility called Lavandería Brillante (Bright Laundry), as fronts used to launder money for a vast drug operation. Though outwardly he works with the Mexican cartel to distribute cocaine, he secretly plots revenge against its members over the death of his business associate and romantic partner Maximino \"Max\" Arciniega at the hands of Hector Salamanca, the patriarch of the cartel-backed drug trade in the Southwest. To become independent of the cartel's cocaine, he constructs a secret lab under the industrial laundry to manufacture methamphetamine.\n\nFring was created as a character to replace that of Tuco Salamanca (played by departing actor Raymond Cruz) during the second season of Breaking Bad. Gus, as a stoic businessman, was created to be opposite to that of the chaotic Tuco and act as a foil to Walter White. The character has received high acclaim, and Esposito's performance in the role has earned him several nominations and awards.",
+
+  "breaking_bad.string.press_shift_to_look_details": "Press shift to view details",
+
+
+  "sounds.breaking_bad.tuco": "ohhhhhhh！"
+
+}

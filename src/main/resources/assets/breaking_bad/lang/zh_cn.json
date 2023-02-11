@@ -1,0 +1,42 @@
+{
+  "itemGroup.breaking_bad_mod_tab": "绝命毒师",
+
+  "item.breaking_bad.cannabis_seeds": "大麻籽",
+  "item.breaking_bad.cannabis_leaf": "大麻叶",
+  "item.breaking_bad.methamphetamine": "冰毒",
+  "item.breaking_bad.methamphetamine_blue": "蓝色冰毒",
+  "item.breaking_bad.mercuric_fulminate_item": "雷酸汞",
+  "item.breaking_bad.chicken_nugget": "炸鸡块",
+  "item.breaking_bad.breaking_bad_theme_music_disc": "绝命毒师唱片",
+  "item.breaking_bad.breaking_bad_theme_music_disc.desc": "Breaking Bad Theme Song",
+
+  "item.breaking_bad.gus_fring_spawn_egg": "古斯刷怪蛋",
+  "item.breaking_bad.undead_gus_fring_spawn_egg": "亡灵古斯刷怪蛋",
+  "item.breaking_bad.twin_brother_blue_spawn_egg": "双胞胎 Leonel 刷怪蛋",
+  "item.breaking_bad.twin_brother_red_spawn_egg": "双胞胎 Marco 刷怪蛋",
+  "item.breaking_bad.undead_zombie_spawn_egg": "亡灵僵尸刷怪蛋",
+
+  "block.breaking_bad.cannabis_crop": "大麻",
+
+  "effect.breaking_bad.addiction": "毒瘾发作",
+  "effect.breaking_bad.addicition_timer": "毒瘾倒计时",
+
+
+  "entity.minecraft.villager.breaking_bad.drug_dealer": "毒贩",
+  "entity.breaking_bad.gus_fring": "古斯",
+  "entity.breaking_bad.undead_gus_fring": "亡灵古斯",
+  "entity.breaking_bad.twin_brother_blue": "双胞胎 Leonel",
+  "entity.breaking_bad.twin_brother_red": "双胞胎 Marco",
+  "entity.breaking_bad.undead_zombie": "亡灵僵尸",
+
+  "breaking_bad.string.gus_fring_soubriquet": "炸鸡叔、葛斯·弗林、古斯塔沃·弗林",
+  "breaking_bad.string.gus_fring_introduction": "      古斯塔沃·“葛斯”·弗林（英语：Gustavo \"Gus\" Fring）是美剧《绝命毒师》系列的虚构人物和主要反派，也是其前传《绝命律师》中的配角，由詹卡洛·埃斯波西托（Giancarlo Esposito）所饰演。在剧中他是一位在美国西南部经营贩毒事业的智利裔美国人，经营多家合法企业，包括一家名为“炸鸡兄弟（英语：Los Pollos Hermanos）”（Los Pollos Hermanos）的炸鸡连锁店和一家名为 Lavanderia Brillante（明亮洗衣店）的工业洗衣店，作为大规模毒品行动的伪装与前线。\n                葛斯的餐厅遍布美国西南部，其旗舰餐厅位于新墨西哥州的阿尔伯克基，公司的养鸡场和配送中心则位于市郊。该餐厅是一家总部位于德国的跨国公司Madrigal Electromotive GmbH的子公司，该跨国公司拥有多家子公司的所有权。虽然他的连锁餐厅是一家合法企业，但台面下其实是为墨西哥贩毒集团转运古柯碱至美国的转运站，并在后来又发展自己的冰毒生产销售业务。\n                葛斯在台面上保持著良好且积极的公众形象，但在台面下经营著他庞大的毒品帝国时是非常残忍无情的。例如他雇佣了许多杀手，并亲手杀死了对手和盟友。",
+  "breaking_bad.string.press_shift_to_look_details": "按下shift查看详情",
+  "breaking_bad.string.fire_immunity": "火焰免疫",
+  "breaking_bad.string.explosion_immunity": "爆炸免疫",
+
+
+  "sounds.breaking_bad.tuco": "太太太太太正！"
+
+
+}
