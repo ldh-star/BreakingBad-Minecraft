@@ -19,6 +19,8 @@ import org.liangguo.breakingbad.loot.ModLootModifiers.registerLootModifiers
 class BreakingBad {
     init {
         val modEventBus = FMLJavaModLoadingContext.get().modEventBus
+        // Cannot inline bytecode built with JVM target 17 into bytecode that is being built with JVM target 1.8. Please specify proper '-jvm-target' option
+//        val modEventBus = thedarkcolour.kotlinforforge.forge.MOD_CONTEXT.getKEventBus()
         with(modEventBus) {
             registerItems()
             registerSounds()

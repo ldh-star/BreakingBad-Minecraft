@@ -35,7 +35,6 @@ This mod brings the theme of the Breaking Bad TV show into the Minecraft world. 
 
 ## Problem to be solved
 
-- How to run 'runClient' gradle script in kotlin's mod project.
 - How to use automated scripts to translate language json files into different language versions.
 
 ## License

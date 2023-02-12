@@ -6,7 +6,8 @@
 # The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
 modLoader = "javafml"
 loaderVersion = "[43,)"
-
+#modLoader="kotlinforforge"
+#loaderVersion="[3.9,)"
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license = "MIT"
