@@ -34,6 +34,7 @@ object PaintingRegistry {
         PaintingVariant(2.block, 2.block)
     }
 
+
     val GUS_3_2 = PAINTING_VARIANTS.register("gus_3_2") {
         PaintingVariant(3.block, 2.block)
     }

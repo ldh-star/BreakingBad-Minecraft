@@ -32,7 +32,7 @@ class BreakingBad {
             registerLootModifiers()
         }
 //        GeckoLib.initialize()
-        modEventBus.addListener { event: FMLCommonSetupEvent -> commonSetup(event) }
+        modEventBus.addListener(::commonSetup)
         MinecraftForge.EVENT_BUS.register(this)
     }
 
