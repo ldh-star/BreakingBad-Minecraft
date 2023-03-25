@@ -26,7 +26,7 @@ class BreakingBad {
             registerSounds()
             registerBlocks()
             registerEffects()
-            registerVillagers()
+//            registerVillagers()
             registerPaintings()
             registerEntityTypes()
             registerLootModifiers()

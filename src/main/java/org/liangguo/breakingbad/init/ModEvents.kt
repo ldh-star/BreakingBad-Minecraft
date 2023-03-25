@@ -63,91 +63,91 @@ object ModEvents {
         }
 
 
-        @JvmStatic
-        @SubscribeEvent
-        fun addCustomTrades(event: VillagerTradesEvent) {
-            event.trades.apply {
-                //对于某种类型的村民，多少个a可以换多少个b。EMERALD是绿宝石
-                when (event.type) {
-                    VillagerRegistry.DRUG_DEALER.get() -> {
-                        //对于毒贩
-                        //1级村民的10个大麻叶换1个绿宝石
-                        newTrade(1, ItemRegistry.CANNABIS_LEAF.toStack(10))
-                        newTrade(1, inputItem = AN_EMERALD, outputItem = ItemRegistry.CANNABIS_SEEDS.toStack(6))
-                        //1级 3个绿宝石换1个蓝色冰毒
-                        newTrade(
-                            1,
-                            inputItem = Items.EMERALD.toStack(3),
-                            outputItem = ItemRegistry.BLUE_METHAMPHETAMINE.toStack(1)
-                        )
-                        newTrade(
-                            1,
-                            inputItem = Items.EMERALD.toStack(2),
-                            outputItem = ItemRegistry.METHAMPHETAMINE.toStack(1)
-                        )
-
-                        //2级 一个绿宝石换6个大麻叶
-                        newTrade(2, inputItem = AN_EMERALD, outputItem = ItemRegistry.CANNABIS_LEAF.toStack(6))
-                        newTrade(
-                            2,
-                            inputItem = Items.EMERALD.toStack(3),
-                            outputItem = ItemRegistry.BLUE_METHAMPHETAMINE.toStack(2)
-                        )
-                        newTrade(
-                            2,
-                            inputItem = Items.EMERALD.toStack(1),
-                            outputItem = ItemRegistry.METHAMPHETAMINE.toStack(1)
-                        )
-
-                        newTrade(
-                            3,
-                            inputItem = Items.EMERALD.toStack(1),
-                            outputItem = ItemRegistry.BLUE_METHAMPHETAMINE.toStack(1)
-                        )
-
-                    }
-
-                    VillagerRegistry.GUS_FRING.get() -> {
-                        //炸鸡叔的交易配置
-                        newTrade(1, inputItem = AN_EMERALD, outputItem = ItemRegistry.CHICKEN_NUGGET.toStack(5))
-                        newTrade(
-                            1,
-                            inputItem = Items.EMERALD.toStack(16),
-                            ItemRegistry.BLUE_METHAMPHETAMINE.toStack(24)
-                        )
-                        newTrade(1, inputItem = Items.EMERALD.toStack(16), ItemRegistry.METHAMPHETAMINE.toStack(36))
-                        newTrade(
-                            1,
-                            inputItem = Items.GOLD_INGOT.toStack(64),
-                            ItemRegistry.BLUE_METHAMPHETAMINE.toStack(36)
-                        )
-                        newTrade(1, inputItem = Items.GOLD_INGOT.toStack(64), ItemRegistry.METHAMPHETAMINE.toStack(24))
-
-                    }
-
-                    else -> {
-                        //对于其他的普通村民
-                        newTrade(1, ItemRegistry.CANNABIS_LEAF.toStack(8))
-                        newTrade(2, ItemRegistry.CANNABIS_LEAF.toStack(7))
-                        newTrade(3, ItemRegistry.CANNABIS_LEAF.toStack(6))
-                        newTrade(4, ItemRegistry.CANNABIS_LEAF.toStack(5))
-                        newTrade(5, ItemRegistry.CANNABIS_LEAF.toStack(4))
-
-                        newTrade(1, ItemRegistry.METHAMPHETAMINE.toStack(4))
-                        newTrade(2, ItemRegistry.METHAMPHETAMINE.toStack(3))
-                        newTrade(3, ItemRegistry.METHAMPHETAMINE.toStack(3))
-                        newTrade(4, ItemRegistry.METHAMPHETAMINE.toStack(2))
-                        newTrade(5, ItemRegistry.METHAMPHETAMINE.toStack(2))
-
-                        newTrade(1, ItemRegistry.BLUE_METHAMPHETAMINE.toStack(3))
-                        newTrade(2, ItemRegistry.BLUE_METHAMPHETAMINE.toStack(2))
-                        newTrade(3, ItemRegistry.BLUE_METHAMPHETAMINE.toStack(1))
-                        newTrade(4, ItemRegistry.BLUE_METHAMPHETAMINE.toStack(1))
-                        newTrade(5, ItemRegistry.BLUE_METHAMPHETAMINE.toStack(1))
-                    }
-                }
-            }
-        }
+//        @JvmStatic
+//        @SubscribeEvent
+//        fun addCustomTrades(event: VillagerTradesEvent) {
+//            event.trades.apply {
+//                //对于某种类型的村民，多少个a可以换多少个b。EMERALD是绿宝石
+//                when (event.type) {
+//                    VillagerRegistry.DRUG_DEALER.get() -> {
+//                        //对于毒贩
+//                        //1级村民的10个大麻叶换1个绿宝石
+//                        newTrade(1, ItemRegistry.CANNABIS_LEAF.toStack(10))
+//                        newTrade(1, inputItem = AN_EMERALD, outputItem = ItemRegistry.CANNABIS_SEEDS.toStack(6))
+//                        //1级 3个绿宝石换1个蓝色冰毒
+//                        newTrade(
+//                            1,
+//                            inputItem = Items.EMERALD.toStack(3),
+//                            outputItem = ItemRegistry.BLUE_METHAMPHETAMINE.toStack(1)
+//                        )
+//                        newTrade(
+//                            1,
+//                            inputItem = Items.EMERALD.toStack(2),
+//                            outputItem = ItemRegistry.METHAMPHETAMINE.toStack(1)
+//                        )
+//
+//                        //2级 一个绿宝石换6个大麻叶
+//                        newTrade(2, inputItem = AN_EMERALD, outputItem = ItemRegistry.CANNABIS_LEAF.toStack(6))
+//                        newTrade(
+//                            2,
+//                            inputItem = Items.EMERALD.toStack(3),
+//                            outputItem = ItemRegistry.BLUE_METHAMPHETAMINE.toStack(2)
+//                        )
+//                        newTrade(
+//                            2,
+//                            inputItem = Items.EMERALD.toStack(1),
+//                            outputItem = ItemRegistry.METHAMPHETAMINE.toStack(1)
+//                        )
+//
+//                        newTrade(
+//                            3,
+//                            inputItem = Items.EMERALD.toStack(1),
+//                            outputItem = ItemRegistry.BLUE_METHAMPHETAMINE.toStack(1)
+//                        )
+//
+//                    }
+//
+//                    VillagerRegistry.GUS_FRING.get() -> {
+//                        //炸鸡叔的交易配置
+//                        newTrade(1, inputItem = AN_EMERALD, outputItem = ItemRegistry.CHICKEN_NUGGET.toStack(5))
+//                        newTrade(
+//                            1,
+//                            inputItem = Items.EMERALD.toStack(16),
+//                            ItemRegistry.BLUE_METHAMPHETAMINE.toStack(24)
+//                        )
+//                        newTrade(1, inputItem = Items.EMERALD.toStack(16), ItemRegistry.METHAMPHETAMINE.toStack(36))
+//                        newTrade(
+//                            1,
+//                            inputItem = Items.GOLD_INGOT.toStack(64),
+//                            ItemRegistry.BLUE_METHAMPHETAMINE.toStack(36)
+//                        )
+//                        newTrade(1, inputItem = Items.GOLD_INGOT.toStack(64), ItemRegistry.METHAMPHETAMINE.toStack(24))
+//
+//                    }
+//
+//                    else -> {
+//                        //对于其他的普通村民
+////                        newTrade(1, ItemRegistry.CANNABIS_LEAF.toStack(8))
+////                        newTrade(2, ItemRegistry.CANNABIS_LEAF.toStack(7))
+////                        newTrade(3, ItemRegistry.CANNABIS_LEAF.toStack(6))
+////                        newTrade(4, ItemRegistry.CANNABIS_LEAF.toStack(5))
+////                        newTrade(5, ItemRegistry.CANNABIS_LEAF.toStack(4))
+////
+////                        newTrade(1, ItemRegistry.METHAMPHETAMINE.toStack(4))
+////                        newTrade(2, ItemRegistry.METHAMPHETAMINE.toStack(3))
+////                        newTrade(3, ItemRegistry.METHAMPHETAMINE.toStack(3))
+////                        newTrade(4, ItemRegistry.METHAMPHETAMINE.toStack(2))
+////                        newTrade(5, ItemRegistry.METHAMPHETAMINE.toStack(2))
+////
+////                        newTrade(1, ItemRegistry.BLUE_METHAMPHETAMINE.toStack(3))
+////                        newTrade(2, ItemRegistry.BLUE_METHAMPHETAMINE.toStack(2))
+////                        newTrade(3, ItemRegistry.BLUE_METHAMPHETAMINE.toStack(1))
+////                        newTrade(4, ItemRegistry.BLUE_METHAMPHETAMINE.toStack(1))
+////                        newTrade(5, ItemRegistry.BLUE_METHAMPHETAMINE.toStack(1))
+//                    }
+//                }
+//            }
+//        }
 
     }
 
